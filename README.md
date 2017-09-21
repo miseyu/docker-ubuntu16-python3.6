@@ -1,2 +1,9 @@
 # docker-ubuntu16-python3.6
-ubuntu16 and python3.6 for dockerfile
+
+## Usage
+
+### Building the image:
+
+```
+docker build -t docker-ubuntu16-python3.6 --no-cache --rm=true ./
+```
